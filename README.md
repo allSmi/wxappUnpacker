@@ -34,6 +34,8 @@ Android 手机最近使用过的微信小程序所对应的 wxapkg 包文件都�
 
 ## 依赖
 
+node wuWxapkg.js [-d] <files...>    //files 就是你想要反编译的文件名
+
 这些 node.js 程序除了自带的 API 外还依赖于以下包:
 [cssbeautify](https://github.com/senchalabs/cssbeautify)、[CSSTree](https://github.com/csstree/csstree)、[VM2](https://github.com/patriksimek/vm2)、[Esprima](https://github.com/jquery/esprima)、[UglifyES](https://github.com/mishoo/UglifyJS2/tree/harmony)
 
